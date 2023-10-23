@@ -11,3 +11,11 @@ Basta con correr el environment que se encuentra, posee tensorflow2 y tensorflow
 ```
 conda env create -f environment.yml
 ```
+
+## Instalar usando pip
+```
+pip install virtualenv
+virtualenv tf23
+source tf23/bin/activate
+pip install -r requirements.txt
+```
