@@ -16,6 +16,10 @@ conda env create -f environment.yml
 ```
 pip install virtualenv
 virtualenv tf23
-source tf23/bin/activate
+./tf23/Scripts/activate
 pip install -r requirements.txt
 ```
+
+# Sistema de datos
+## h5py
+It lets you store huge amounts of numerical data, and easily manipulate that data from NumPy. For example, you can slice into multi-terabyte datasets stored on disk, as if they were real NumPy arrays. Thousands of datasets can be stored in a single file, categorized and tagged however you want.
