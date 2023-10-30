@@ -45,9 +45,17 @@ Si utilizas pip para administrar tu entorno, puedes exportar las dependencias a 
 Para que otros repliquen tu entorno, pueden crear un nuevo entorno virtual y luego instalar las dependencias desde el archivo `requirements.txt`:
 
 ```bash
-python -m venv myenv
-source myenv/bin/activate  # en Windows, usa myenv\Scripts\activate
+python -m venv tf23
+source tf23/Scripts/activate
 pip install -r requirements.txt
 ```
+
+Se puede reemplazar le comanod source por simplemente 
+```bash
+.\tf23\Scripts\activate
+```
+
+nota:
+- falta instalar ipykernel
 
 Estos son los pasos básicos para exportar tu entorno y compartirlo en tu repositorio. Al incluir el archivo de especificación de entorno en tu repositorio, otros pueden configurar y reproducir fácilmente el mismo entorno en sus propias máquinas.
